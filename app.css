@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(42, 97, 207);
+}
+
+.container {
+    width: 380px;
+    padding: 10px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 15px;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.container p {
+    margin: 15px 0;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+}
+
+form h3 {
+    margin-top: 10px;
+    padding: 9px;
+}
+
+form input {
+    width: 90%;
+    padding: 4px;
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.btn {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn button {
+    padding: 15px 25px;
+    background-color: rgb(83, 236, 236);
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#star-game:disabled {
+    cursor: not-allowed;
+    color: gray;
+    background-color: rgb(203, 244, 244);
+
+}
+
