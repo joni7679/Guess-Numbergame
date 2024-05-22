@@ -5,7 +5,7 @@ let stargameBtn = document.querySelector("#star-game");
 let submitBtn = document.querySelector("#submit")
 let guesNumber = document.querySelector("#your-gues");
 
-(function(){
+function a(){
     let allguesArry = []
     let randomnum = Math.floor(Math.random() * 100);
     
@@ -42,4 +42,5 @@ let guesNumber = document.querySelector("#your-gues");
         })
     });
 }
-)
+
+a()
